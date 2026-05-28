@@ -1,17 +1,19 @@
-import React from 'react';
-import { useLanguage } from '../context/LanguageContext';
-import { TITLE_TEXT, NAVBAR_TEXT } from '../services/contentService';
-import Hero from '../components/Hero';
-import Footer from '../components/Footer';
-import Programmes from '../components/Programmes';
-import Volunteers from '../components/Volunteers';
+import React from "react";
+import { useLanguage } from "../context/LanguageContext";
+import { TITLE_TEXT, NAVBAR_TEXT } from "../services/contentService";
+import Hero from "../components/Hero";
+import Footer from "../components/Footer";
+import Programmes from "../components/Programmes";
+import Volunteers from "../components/Volunteers";
+import PathSection from "../components/PathSection";
+import VideoSection from "../components/VideoSection";
 
 const Homepage = () => {
   const { language, setLang } = useLanguage();
 
   return (
-    <div className="p-4 font-['FigTree']">
-      <div className="text-black p-4 flex justify-between items-center mb-6 rounded-xl ">
+    <div className="font-['FigTree']">
+      {/* <div className="text-black p-4 flex justify-between items-center mb-6 rounded-xl ">
         <div className='flex items-center space-x-4'>
           <img src="/images/logo.png" alt="Logo" className="h-26 w-26 object-contain" />
         <div className="text-3xl font-bold">
@@ -37,11 +39,13 @@ const Homepage = () => {
             <option value="ne">नेपाली</option>
           </select>
         </div>
-      </div>
-          <Hero />
-          <Programmes />
-          <Volunteers />
-          <Footer />
+      </div> */}
+      <Hero />
+      <PathSection />
+      <VideoSection />
+      {/* <Programmes /> */}
+      {/* <Volunteers /> */}
+      {/* <Footer /> */}
     </div>
   );
 };
