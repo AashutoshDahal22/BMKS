@@ -33,25 +33,38 @@ export const NAVBAR_TEXT = {
 };
 
 export const CARD_INFO = {
-  mainTitle:{
-     en:"Our Programmes",
-     hi:"कार्यक्रम",
-     ne:"कार्यक्रम",
+  mainTitle: {
+    en: "Programmes",
+    hi: "कार्यक्रम",
+    ne: "कार्यक्रम",
   },
-  bmks: {
+  arati: {
     title: {
-      en: 'BMKS Nepal',
+      en: 'Maha Arati Programme',
       hi: 'बीएमकेएस नेपाल',
       ne: 'बीएमकेएस नेपाल',
     },
     description: {
-      en: 'Information about BMKS...',
+      en: '1 hour divine arati...',
       hi: 'बीएमकेएस के बारे में जानकारी...',
       ne: 'बीएमकेएस को बारेमा जानकारी...',
     },
     image: '/images/aboutBMKS.jpg',
   },
-  tree: {
+  padyatra: {
+    title: {
+      en: 'Anti Narcotics Rally',
+      hi: 'राष्ट्र के लिए एक पेड़',
+      ne: 'राष्ट्रको लागि एक रूख',
+    },
+    description: {
+      en: 'Details about the One Tree for Nation initiative...',
+      hi: 'राष्ट्र के लिए एक पेड़ पहल के बारे में...',
+      ne: 'राष्ट्रको लागि एक रूख पहलको बारेमा...',
+    },
+    image: '/images/aboutBMKS.jpg',
+  },
+  plantation: {
     title: {
       en: 'One Tree for Nation',
       hi: 'राष्ट्र के लिए एक पेड़',
@@ -62,33 +75,46 @@ export const CARD_INFO = {
       hi: 'राष्ट्र के लिए एक पेड़ पहल के बारे में...',
       ne: 'राष्ट्रको लागि एक रूख पहलको बारेमा...',
     },
-    image: 'https://via.placeholder.com/400x250', // Image URL for Tree topic
+    image: '/images/aboutBMKS.jpg',
   },
-  intoxication: {
+  donation: {
     title: {
-      en: 'Intoxication Free Nepal',
+      en: 'BMKS Blood Donation Program',
+      hi: 'राष्ट्र के लिए एक पेड़',
+      ne: 'राष्ट्रको लागि एक रूख',
+    },
+    description: {
+      en: 'Details about the blood donation program...',
+      hi: 'राष्ट्र के लिए एक पेड़ पहल के बारे में...',
+      ne: 'राष्ट्रको लागि एक रूख पहलको बारेमा...',
+    },
+    image: '/images/aboutBMKS.jpg',
+  },
+  chalisa: {
+    title: {
+      en: '24 hour and 5 hour Durga Chalisa Path',
       hi: 'नशामुक्त नेपाल',
       ne: 'नशामुक्त नेपाल',
     },
     description: {
-      en: 'Information about the Intoxication Free Nepal campaign...',
+      en: 'Information about the Durga Chalisa Path...',
       hi: 'नशामुक्त नेपाल अभियान के बारे में...',
       ne: 'नशामुक्त नेपाल अभियानको बारेमा...',
     },
-    image: '/images/dashboardImage3.jpg', // Image URL for Intoxication Free Nepal
+    image: '/images/aboutBMKS.jpg',
   },
-  janajagaran: {
+  meditation: {
     title: {
-      en: 'Janajagaran',
-      hi: 'जनजागरण',
-      ne: 'जनजागरण',
+      en: 'Yoga and Medidation Programme',
+      hi: 'नशामुक्त नेपाल',
+      ne: 'नशामुक्त नेपाल',
     },
     description: {
-      en: 'Details about the Janajagaran movement...',
-      hi: 'जनजागरण आंदोलन के बारे में...',
-      ne: 'जनजागरण आन्दोलनको बारेमा...',
+      en: 'Information about Yoga and Medidation Programme...',
+      hi: 'नशामुक्त नेपाल अभियान के बारे में...',
+      ne: 'नशामुक्त नेपाल अभियानको बारेमा...',
     },
-    image: 'https://via.placeholder.com/400x250', // Image URL for Janajagaran
+    image: '/images/aboutBMKS.jpg',
   },
 };
 
